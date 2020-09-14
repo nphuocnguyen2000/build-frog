@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://github.com/nphuocnguyen2000/build-frog",
+  "homepage" : "https://nphuocnguyen2000.github.io/build-frog/",
   "name": "the-frog",
   "version": "0.1.0",
   "private": true,
@@ -30,7 +30,7 @@
   },
   "scripts": {
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy" : " npm run build | gh-pages -d build",
     "sasstocss": "node-sass ./public/sass/index.scss ./public/css/index.css -w",
     "start-wb": "react-app-rewired start",
     "start": "react-scripts start",
