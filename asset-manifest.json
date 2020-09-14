@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.js": "/nphuocnguyen2000/the-frog-react/static/js/main.d1e49122.chunk.js",
+    "main.js.map": "/nphuocnguyen2000/the-frog-react/static/js/main.d1e49122.chunk.js.map",
+    "runtime-main.js": "/nphuocnguyen2000/the-frog-react/static/js/runtime-main.2a87b1bb.js",
+    "runtime-main.js.map": "/nphuocnguyen2000/the-frog-react/static/js/runtime-main.2a87b1bb.js.map",
+    "static/css/2.45486d1d.chunk.css": "/nphuocnguyen2000/the-frog-react/static/css/2.45486d1d.chunk.css",
+    "static/js/2.240d4d72.chunk.js": "/nphuocnguyen2000/the-frog-react/static/js/2.240d4d72.chunk.js",
+    "static/js/2.240d4d72.chunk.js.map": "/nphuocnguyen2000/the-frog-react/static/js/2.240d4d72.chunk.js.map",
+    "index.html": "/nphuocnguyen2000/the-frog-react/index.html",
+    "precache-manifest.906b396d70861452d9db4077e6e52c01.js": "/nphuocnguyen2000/the-frog-react/precache-manifest.906b396d70861452d9db4077e6e52c01.js",
+    "service-worker.js": "/nphuocnguyen2000/the-frog-react/service-worker.js",
+    "static/css/2.45486d1d.chunk.css.map": "/nphuocnguyen2000/the-frog-react/static/css/2.45486d1d.chunk.css.map",
+    "static/js/2.240d4d72.chunk.js.LICENSE.txt": "/nphuocnguyen2000/the-frog-react/static/js/2.240d4d72.chunk.js.LICENSE.txt",
+    "static/media/slick-theme.css": "/nphuocnguyen2000/the-frog-react/static/media/slick.f97e3bbf.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a87b1bb.js",
+    "static/css/2.45486d1d.chunk.css",
+    "static/js/2.240d4d72.chunk.js",
+    "static/js/main.d1e49122.chunk.js"
+  ]
+}

@@ -1,0 +1,103 @@
+.banner-wrapper{
+    background-color: $color-primary;
+  
+}
+.banner{
+    height: 500px;
+  
+    &__item{
+        // height: 100%;
+        display: flex;
+        background-image: url('../../image/bg_banner.png');
+        background-size: contain;
+        height: 500px;
+        outline: none;
+        position: relative;
+        &-img{
+          
+            height: 100%;
+            display: flex;
+            justify-content: flex-end;
+            padding-top: 10px;
+            padding-right: 100px;
+            overflow: hidden;
+            img{
+                height: 100%;
+                transform: translateY(150%);
+                animation-duration: 1s;
+            };
+            @include mobie{
+                padding: 0;
+            }
+            @include tablet {
+                padding-right: 20px;
+            }
+        }
+        &-text{
+           position: absolute;
+           top: 25%;
+           padding: 10px 100px;
+           width: 100%;
+           span{
+               display: block;
+           }
+           .title{
+               font-size: 5rem;
+               font-weight: bold;
+               color: $color-secondary-light;
+               text-align: left;
+               padding: 10px 0;
+               @include mobie{
+                   font-size: 3rem;
+                   text-align: left;
+               }
+               @include tablet{
+                   text-align: left;
+                   padding: 10px 30px;
+               }
+           }
+           .sub-title{
+               font-size: 1.5rem;
+            
+               font-weight: 300;
+               @include mobie{
+                   font-size: 1.4rem;
+                   margin-top: 5px;
+               }
+           }
+           .sub-title2{
+               font-size: 1.5rem;
+               color: #999;
+               font-weight: 300;
+               display: inline-block;
+               width: 700px;
+               @include mobie{
+                    display: inline-block;
+                    width: 350px;
+                    font-size: 1.3rem;
+               }
+               @include tablet{
+                   width: 500px;
+               }
+           }
+           @include mobie{
+                top: 30%;
+                padding: 0 9px;
+           }
+           @include tablet{
+               padding: 0 10px;
+           }
+        }
+        @include mobie{
+            height: 350px;
+            overflow: hidden;
+        }
+    }
+    @include mobie{
+        height: 350px;
+    }
+}
+
+.slick-track{
+    height: 100%;
+}
