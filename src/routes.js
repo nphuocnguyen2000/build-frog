@@ -11,11 +11,14 @@ import Blogs from './components/blogs/Blogs'
 import Map from './components/Map'
 import About from './components/about/About'
 import Checkout from './components/checkout/Checkout'
+import FileUpload from './components/FileUpload';
+import NewFileUpload from './components/NewFileUpload';
 const routes = [
     {
         path: '/',
         exact: true,
-        main: ()=> <Home/>
+        main: ()=> <NewFileUpload/>
+        // main: ()=> <Home/>
     },
     
     {

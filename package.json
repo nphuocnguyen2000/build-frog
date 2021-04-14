@@ -1,5 +1,5 @@
 {
-  "homepage" : "https://nphuocnguyen2000.github.io/build-frog/",
+  "homepage": "https://nphuocnguyen2000.github.io/build-frog/",
   "name": "the-frog",
   "version": "0.1.0",
   "private": true,
@@ -23,14 +23,15 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-slick": "^0.26.1",
+    "reactstrap": "^8.9.0",
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "slick-carousel": "^1.8.1",
     "websocket-extensions": "^0.1.4"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : " npm run build | gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": " npm run build | gh-pages -d build",
     "sasstocss": "node-sass ./public/sass/index.scss ./public/css/index.css -w",
     "start-wb": "react-app-rewired start",
     "start": "react-scripts start",
